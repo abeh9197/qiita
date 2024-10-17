@@ -51,7 +51,6 @@ def get_qiita_articles():
         if len(data) < 100:
             break
         page += 1
-        break
 
     return articles
 
